@@ -26,7 +26,7 @@ function Bio() {
                                 <h6>UNVERSITY OF OREGON - CODING BOOTCAMP - 2020</h6>
                                 <br></br>
                                 <br></br>
-                                <h5 className="bio-header">Resume</h5>
+                                <h5 className="bio-header">Resume:</h5>
                             </div>
                         </div>
                     </div>
