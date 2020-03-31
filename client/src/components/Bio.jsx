@@ -1,5 +1,7 @@
 import React from 'react';
 import "./style.css";
+import BioPhoto from '../images/bio_photo.jpeg';
+import Resume from '../pdf/HK_Code_Resume.pdf';
 
 function Bio() {
     return (
@@ -14,7 +16,7 @@ function Bio() {
                     <div className="col-md-6">
                         <h1>Hello. My name is Howard Kennedy and I am a fullstack developer.</h1>
                         <div className="bio-box">
-                            <img src="../public/images/bio_photo.jpeg" width="50%" alt="me" />
+                            <img src={BioPhoto} width="50%" alt="me" />
                             <div className="bio-text">
                                 <h5 className="bio-header">Languages:</h5>
                                 <h6>HTML CSS JAVASCRIPT JQUERY NODE.JS MYSQL MONGODB HANDLEBARS REACT</h6>
@@ -26,7 +28,7 @@ function Bio() {
                                 <h6>UNVERSITY OF OREGON - CODING BOOTCAMP - 2020</h6>
                                 <br></br>
                                 <br></br>
-                                <h5 className="bio-header">Resume:</h5>
+                                <h5 className="bio-header">Resume: <a href={Resume}>👀</a></h5>
                             </div>
                         </div>
                     </div>
