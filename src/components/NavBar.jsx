@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-function Header () {
+function NavBar () {
     return (
         <nav className="navbar fixed-bottom navbar-dark navbar-expand-lg">
         <a className="navbar-brand" href="/">Howard Kennedy VI</a>
@@ -25,5 +25,5 @@ function Header () {
     )
 }
 
-export default Header;
+export default NavBar;
 

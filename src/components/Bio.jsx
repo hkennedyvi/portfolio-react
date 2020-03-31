@@ -1,8 +1,7 @@
 import React from 'react';
-import Header from './Header'
 import "./style.css";
 
-function Portfolio() {
+function Bio() {
     return (
         <div>
             <div className="container-fluid" id="intro-header">
@@ -38,9 +37,8 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
-            <Header />
         </div>
     )
 }
 
-export default Portfolio;
+export default Bio;

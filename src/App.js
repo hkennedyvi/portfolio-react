@@ -1,15 +1,23 @@
 import React from "react";
-// import Portfolio from "./components/Portfolio";
-import Gallery from "./components/Gallery"
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import NavBar from "./components/NavBar"
 
 function App() {
   return (
     <Router>
-      <div>
-        {/* <Portfolio /> */}
-        <Gallery />
-      </div>
+    <div>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/portfolio">
+          <Portfolio />
+        </Route>
+      </Switch>
+      <NavBar />
+    </div>
     </Router>
   )
 }
