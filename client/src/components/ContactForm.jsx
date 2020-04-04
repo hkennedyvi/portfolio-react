@@ -6,9 +6,9 @@ class ContactForm extends Component {
     handleSubmit(e){
         e.preventDefault();
         const name = document.getElementById('name').value;
-        const company = document.getElementById('email').value;
-        const email = document.getElementById('message').value;
-        const phone = document.getElementById('name').value;
+        const company = document.getElementById('company').value;
+        const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
         const message = document.getElementById('message').value;
         
         axios({
@@ -22,6 +22,7 @@ class ContactForm extends Component {
                 messsage: message
             }
         }).then((response)=>{
+            console.log(response.config.data);
             if (response.data.msg === 'success'){
                 alert("Message Sent."); 
                 this.resetForm()

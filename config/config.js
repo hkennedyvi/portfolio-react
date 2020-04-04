@@ -1,4 +1,4 @@
 module.exports = {
-    USER: "vivianne76@ethereal.email", 
-    PASS: "nsHQgmJUQD8bBxHGAC"
+    USER: "sam.toy7@ethereal.email", 
+    PASS: "cecFCtJhXeucPMwgZY"
 }
