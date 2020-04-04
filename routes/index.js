@@ -1,14 +1,14 @@
 const path = require("path");
 const router = require("express").Router();
 const nodemailer = require('nodemailer');
-// const creds = require('../config/config');
+const creds = require('../config/config');
 
 router.use(function(req, res) {
   res.sendFile(path.join(__dirname, "../client/build/index.html"));
 });
 
 var transport = {
-  host: 'smtp.gmail.com',
+  host: 'smtp.ethereal.email',
   auth: {
     user: creds.USER,
     pass: creds.PASS
@@ -33,7 +33,7 @@ router.post('/send', (req, res, next) => {
 
   var mail = {
     from: name,
-    to: 'RECEIVING_EMAIL_ADDRESS_GOES_HERE',  //Change to email address that you want to receive messages on
+    to: 'hkenvi@yahoo.com',  //Change to email address that you want to receive messages on
     subject: 'New Message from Contact Form',
     text: content
   }
