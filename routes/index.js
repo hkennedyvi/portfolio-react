@@ -3,10 +3,6 @@ const router = require("express").Router();
 const nodemailer = require('nodemailer');
 const creds = require('../config/config');
 
-router.use(function(req, res) {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"));
-});
-
 var transport = {
   host: 'smtp.ethereal.email',
   auth: {
@@ -50,5 +46,9 @@ router.post('/send', (req, res, next) => {
     }
   })
 })
+
+router.use(function(req, res) {
+  res.sendFile(path.join(__dirname, "../client/build/index.html"));
+});
 
 module.exports = router;
