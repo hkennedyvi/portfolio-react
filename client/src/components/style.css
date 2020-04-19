@@ -4,6 +4,7 @@ html, body {
 
 .navbar {
     background-color: indianred;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #intro-header {
@@ -31,6 +32,10 @@ html, body {
     font-size: 200px;
 }
 
+.hand-text {
+    margin: 0 0 0 50px;
+}
+
 .nav-icon-home {
     font-size: 35px;
     margin-left: 70px;
@@ -48,6 +53,17 @@ html, body {
 
 
 /* PORTFOLIO PAGE */
+
+.card-img-top {
+    height: 225px;
+    border: 1px solid indianred;
+}
+
+#portfolio-placeholder {
+    margin: 12px 0;
+    font-size: 200px;
+    text-align: center;
+}
 
 .portfolio-row {
     background-color: #FFE4B5;

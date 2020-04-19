@@ -23,6 +23,13 @@ function App() {
       <NavBar />
     </div>
     </Router>
+    // This is for single page display
+//     <div>
+//     <Contact />
+//     <Home />
+//     <Portfolio />
+//     <NavBar />
+// </div>
   )
 }
 

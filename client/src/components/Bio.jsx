@@ -10,7 +10,7 @@ function Bio() {
                 <div className="row">
                     <div className="col-md-3">
                         <a href="contact"><i className="far fa-paper-plane nav-icon-home"></i></a>
-                        <p>CONTACT ABOVE</p>
+                        <p className="hand-text">CONTACT</p>
                         <i className="hands far fa-hand-point-up"></i>
                     </div>
                     <div className="col-md-6">
@@ -22,11 +22,9 @@ function Bio() {
                                 <h6>HTML CSS JAVASCRIPT JQUERY NODE.JS MYSQL MONGODB HANDLEBARS REACT</h6>
                                 <br></br>
                                 <h5 className="bio-header">Education:</h5>
-                                <h6>PORTLAND STATE UNVERSITY - BA ADVERTISING MGMT - 2019</h6>
-                                <br></br>
-                                <br></br>
                                 <h6>UNVERSITY OF OREGON - CODING BOOTCAMP - 2020</h6>
                                 <br></br>
+                                <h6>PORTLAND STATE UNVERSITY - BA ADVERTISING MGMT - 2019</h6>
                                 <br></br>
                                 <h5 className="bio-header">Resume: <a href={Resume}>👀</a></h5>
                             </div>
@@ -34,7 +32,7 @@ function Bio() {
                     </div>
                     <div className="col-md-3">
                         <i className="hands far fa-hand-point-down"></i>
-                        <p>SEE WORK BELOW</p>
+                        <p className="hand-text">SEE WORK</p>
                         <a href="portfolio"><i className="fas fa-palette nav-icon-home"></i></a>
                     </div>
                 </div>
