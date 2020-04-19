@@ -22,7 +22,7 @@ function FullPortfolio() {
                                     <br /><br />
                                     RESULT: NBA STAT GENERATOR/PLAYER TRACKER
                                     <br /><br />
-                                    <a href="https://nbafanboi.herokuapp.com/">SEE IT</a>
+                                    <a href="https://nbafanboi.herokuapp.com/" target="_blank">SEE IT</a>
                                 </p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ function FullPortfolio() {
                                     <br /><br />
                                     RESULT: CONCERT FINDER
                                     <br /><br />
-                                    <a href="https://jeretc79.github.io/project1/">SEE IT</a>
+                                    <a href="https://jeretc79.github.io/project1/" target="_blank">SEE IT</a>
                                 </p>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ function FullPortfolio() {
                                     <br /><br />
                                     RESULT: NEIGHBORHOOD-BASED SOCIAL APP
                                     <br /><br />
-                                    <a href="https://u-incahoots.herokuapp.com/">SEE IT</a>
+                                    <a href="https://u-incahoots.herokuapp.com/" target="_blank">SEE IT</a>
                                 </p>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ function FullPortfolio() {
                                     <br /><br />
                                     RESULT: LIBRARY BUILDER
                                     <br /><br />
-                                    <a href="https://nbafanboi.herokuapp.com/">SEE IT</a>
+                                    <a href="https://imalreadybooked.herokuapp.com/" target="_blank">SEE IT</a>
                                 </p>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ function FullPortfolio() {
                                     <br /><br />
                                     RESULT: EMPLOYEE DIRECTORY
                                     <br /><br />
-                                    <a href="https://jeretc79.github.io/project1/">SEE IT</a>
+                                    <a href="https://onemeanteam.herokuapp.com/" target="_blank">SEE IT</a>
                                 </p>
                             </div>
                         </div>
