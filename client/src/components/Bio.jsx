@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css";
 import BioPhoto from '../images/bio_photo.jpeg';
-import Resume from '../pdf/HK_Code_Resume.pdf';
+import Resume from '../pdf/HK_Resume_4.2020_v1.pdf';
 
 function Bio() {
     return (
