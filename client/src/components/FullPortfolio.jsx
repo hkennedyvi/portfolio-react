@@ -36,7 +36,7 @@ function FullPortfolio() {
                             aria-expanded="false" aria-controls="collapseExample">SHOW ME SHOWS</button>
                         <div className="collapse" id="second-card">
                             <div className="card-body text-center">
-                                <p>USED: HTML, CSS, JAVASCRIPT, SONGKICK and TICKETMASTER API.
+                                <p className="test">USED: HTML, CSS, JAVASCRIPT, SONGKICK and TICKETMASTER API.
                                     <br /><br />
                                     RESULT: CONCERT FINDER
                                     <br /><br />
@@ -112,7 +112,6 @@ function FullPortfolio() {
                             <div className="card-body text-center">
                                 <p>I'M ALWAYS WORKING ON SOMETHING NEW. CHECK BACK TO SEE MY NEXT PROJECT.
                                     <br /><br />
-                                    
                                 </p>
                             </div>
                         </div>

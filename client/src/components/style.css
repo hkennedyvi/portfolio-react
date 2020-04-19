@@ -67,13 +67,14 @@ html, body {
 
 .portfolio-row {
     background-color: #FFE4B5;
-    padding: 25px 0 25px 100px;
+    padding: 25px 0 25px 25px;
 }
 
 .portfolio-btn, #contact-btn {
     background-color: #FFE4B5;
     color: indianred;
     border-color: indianred;
+    font-size: 25px;
 }
 
 .portfolio-btn:hover {
@@ -82,13 +83,17 @@ html, body {
   }
 
 .card {
-    width: 18rem;
+    width: 22rem;
     background-color: #FFE4B5;
     color: indianred;
     font-family: 'Oswald', sans-serif;
     font-size: 13px;
     font-weight: bolder;
     border-color: #FFE4B5;
+}
+
+.card-body {
+    font-size: 17px;
 }
 
 .d-flex {
