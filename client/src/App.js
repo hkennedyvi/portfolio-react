@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import NavBar from "./components/NavBar";
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
           <Contact />
         </Route>
       </Switch>
-      <NavBar />
     </div>
     </Router>
     // This is for single page display

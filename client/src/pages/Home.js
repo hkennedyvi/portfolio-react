@@ -1,9 +1,9 @@
 import React from 'react';
-import Bio from '../components/Bio'
+import Bios from '../components/Bios'
 
 function Home() {
     return (
-        <Bio />
+        <Bios />
     )
 }
 
