@@ -16,6 +16,10 @@ body {
   color:black;
 }
 
+.fa-file:hover {
+  color: white;
+}
+
 .find-me-row {
     margin: 90px 0 0 -30px;
 }
