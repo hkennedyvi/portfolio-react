@@ -47,10 +47,7 @@ function Bio() {
                     <div class="jumbotron" id="bio-jumbotron">
                         <div class="row">
                             <div class="col">
-                                <img class="portrait"
-                                    src={BioPhoto ? BioPhoto : <div class="spinner-border text-dark" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>} />
+                                <img class="portrait" src={BioPhoto} alt="portrait" />
                             </div>
                             <div class="col">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
