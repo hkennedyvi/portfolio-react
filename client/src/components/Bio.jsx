@@ -12,7 +12,7 @@ import mysqlIcon from '../icons/portfolio_mysql80.png';
 import reactIcon from '../icons/portfolio_react64.png';
 import mongoIcon from '../icons/portfolio_mongodb96.png';
 
-function Bios() {
+function Bio() {
 
     const [sideNavOpen, setSideNavOpen] = useState(true);
 
@@ -94,6 +94,7 @@ function Bios() {
                                 </div>
                                 <div class="col-sm">
                                     <img class="code-icon" src={mongoIcon} />
+                                    <p id="icon-citation">icons by <a id="icon-citation" target="_blank" href="https://icons8.com">Icons8</a></p>
                                 </div>
                                 <div class="col-sm">
                                     <img class="code-icon" src={reactIcon} />
@@ -101,15 +102,17 @@ function Bios() {
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="col education-container">
                             <h1>education</h1>
+                            <br /><br />
                             <h6>UNVERSITY OF OREGON - CODING BOOTCAMP - 2020</h6>
                             <h6>PORTLAND STATE UNVERSITY - BA ADVERTISING MGMT - 2019</h6>
-                            <h5>Resume: <a href={Resume} target="_blank">👀</a></h5>
+                            <br /><br />
+                            <h5>Resume: <a href={Resume} target="_blank"><i class="sm-icon far fa-file"></i></a></h5>
                             <div class="container">
                                 <div class="row find-me-row">
                                     <div class="col-sm-8">
-                                        <h3>find me here <i class="fas fa-hand-point-right"></i></h3>
+                                        <h3>find me here <i class=" sm-icon fas fa-hand-point-right"></i></h3>
                                     </div>
                                     <div class="col-sm-2">
                                         <a href="https://www.linkedin.com/in/howard-kennedy-5784876b/" target="_blank"><i
@@ -130,4 +133,4 @@ function Bios() {
     )
 }
 
-export default Bios;
+export default Bio;

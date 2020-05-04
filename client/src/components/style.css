@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto Mono', monospace;
+    color: black;
   }
 
   #contact-section {
@@ -11,8 +12,12 @@ body {
     width: 100%;
 }
 
+.sm-icon {
+  color:black;
+}
+
 .find-me-row {
-    margin: 150px 0 0 0;
+    margin: 90px 0 0 -30px;
 }
 
 a {
@@ -125,6 +130,15 @@ input, textarea {
 
   #wrapper.toggled #sidebar-wrapper {
     margin-left: 0;
+  }
+
+  #wrapper.toggled .education-container {
+    float: right;
+  }
+
+  #icon-citation {
+    font-size: 10px;
+    color: white;
   }
   
   @media (min-width: 768px) {
