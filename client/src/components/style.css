@@ -4,6 +4,10 @@ body {
     color: black;
   }
 
+  button:focus {
+    outline: none;
+  }
+
   #avatar {
     width: 150px;
     margin: 0 0 0 20px;
