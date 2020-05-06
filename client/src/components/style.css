@@ -4,16 +4,40 @@ body {
     color: black;
   }
 
+  #avatar {
+    width: 150px;
+    margin: 0 0 0 20px;
+    background: linear-gradient(to top left, azure 0%, #ffe4b5 100%);
+    border-radius: 5em;
+  }
+
+  .burger {
+    color: indianred;
+    font-size: 40px;
+    padding: 0 5px;
+  }
+
+  .burger:hover {
+    color: black;
+  }
+
+  .gallery-header {
+    color: indianred;
+  }
+
   #contact-section {
     color: indianred;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
+    margin: 0 auto;
+    padding-top: 50px;
     width: 100%;
 }
 
 .sm-icon {
   color:black;
+}
+
+.fa-file:hover {
+  color: white;
 }
 
 .find-me-row {
@@ -31,7 +55,6 @@ a:hover {
 .social-icon-contact {
     color: black;
     font-size: 75px;
-    /* margin-left: 25px; */
 }
 
 .social-icon-contact:hover {
