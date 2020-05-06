@@ -140,7 +140,7 @@ function Bio() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
 
     )
 }
