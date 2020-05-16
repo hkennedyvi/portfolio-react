@@ -28,7 +28,7 @@ function FullPortfolio() {
                 <div className="list-group list-group-flush">
                     <a href="/" className="nav-item list-group-item list-group-item-action">Home</a>
                     <a href="/portfolio" className="nav-item list-group-item list-group-item-action">Gallery</a>
-                    <a href="/contact" className="nav-item list-group-item list-group-item-action">Contact</a>
+                    <a href="/contact" className="nav-item list-group-item list-group-item-action">Message</a>
                 </div>
             </div>
 

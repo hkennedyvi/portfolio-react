@@ -32,7 +32,7 @@ function Bio() {
                 <div className="list-group list-group-flush">
                     <a href="/" className="nav-item list-group-item list-group-item-action">Home</a>
                     <a href="/portfolio" className="nav-item list-group-item list-group-item-action">Gallery</a>
-                    <a href="/contact" className="nav-item list-group-item list-group-item-action">Contact</a>
+                    <a href="/contact" className="nav-item list-group-item list-group-item-action">Message</a>
                 </div>
             </div>
 
@@ -56,9 +56,23 @@ function Bio() {
                                 <h1>about me...</h1>
                                 <br />
                                 My name is Howard Kennedy. I'm a Full Stack Developer
-                                recently certified through University of Oregon.
+                                recently certified through University of Oregon with a background in Advertising.
                                 <br /><br />
-                                {/* Next line here */}
+                                Today, I have a toolbelt of 9 languages ranging
+                                from essential to emerging. Just as importantly, the curiositly I ignited
+                                the very first day I opened an HTML file has only gotten stronger.
+                                <br /><br />
+                                <h4>Proficiencies:</h4>
+                                React, Javascript, NodeJS, CSS3, HTML
+                                <br /><br />
+                                <h4>Email:</h4>
+                                hkennedyvi@gmail.com
+                                <br /><br />
+                                <h4>Resume:
+                                    <a href={Resume} target="_blank" rel="noopener noreferrer">
+                                        <i className="sm-icon far fa-file"></i>
+                                    </a>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -114,11 +128,6 @@ function Bio() {
                             <h6>UNVERSITY OF OREGON - CODING BOOTCAMP - 2020</h6>
                             <h6>PORTLAND STATE UNVERSITY - BA ADVERTISING MGMT - 2019</h6>
                             <br /><br />
-                            <h5>Resume:
-                                <a href={Resume} target="_blank" rel="noopener noreferrer">
-                                    <i className="sm-icon far fa-file"></i>
-                                </a>
-                            </h5>
                             <div className="container">
                                 <div className="row find-me-row">
                                     <div className="col-xl-8 col-lg-6 col-md-4 col-sm-4 col-xs-4">

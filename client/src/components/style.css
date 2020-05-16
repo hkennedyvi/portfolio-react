@@ -26,14 +26,18 @@ body {
   }
 
   .gallery-header {
-    color: indianred;
+    color: black;
   }
 
   #contact-section {
-    color: indianred;
+    color: black;
     margin: 0 auto;
     padding-top: 50px;
     width: 100%;
+}
+
+.education-container {
+  padding-top: 20px;
 }
 
 .sm-icon {
@@ -72,14 +76,14 @@ label {
 
 input, textarea {
     background-color: transparent;
-    border-color: indianred;
+    border-color: black;
     width: 90%;
 }
 
 #contact-btn {
   background-color: transparent;
-  color: #ffe4b5;
-  border-color: #ffe4b5;
+  color: black;
+  border: black solid 1.5px;
   font-size: 25px;
   margin: 0 150px 0 0;
 }
@@ -97,6 +101,11 @@ input, textarea {
     border-radius: 0.5em;
     color:black;
     opacity: 0;
+  }
+
+  .fa-question {
+    opacity: 1 !important;
+    color: indianred;
   }
 
   .carousel-caption:hover {
