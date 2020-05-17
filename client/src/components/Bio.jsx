@@ -56,14 +56,17 @@ function Bio() {
                                 <h1>about me...</h1>
                                 <br />
                                 My name is Howard Kennedy. I'm a Full Stack Developer
-                                recently certified through University of Oregon with a background in Advertising.
+                                recently certified through University of Oregon.
                                 <br /><br />
-                                Today, I have a toolbelt of 9 languages ranging
-                                from essential to emerging. Just as importantly, the curiositly I ignited
-                                the very first day I opened an HTML file has only gotten stronger.
+                                Prior to web development, my background includes earning a business degree in advertising
+                                along with several years in the television industry.
                                 <br /><br />
-                                <h4>Proficiencies:</h4>
-                                React, Javascript, NodeJS, CSS3, HTML
+                                Today, my computer language toolbelt spans the spectrum 
+                                from the essential to the emerging with 
+                                <span id="prof-line"> proficiency in React, Javascript, NodeJS, CSS3, and HTML. </span> 
+                                Just as importantly, my curiosity only grows with each new technology I find my way around.
+                                <br /><br />
+                             
                                 <br /><br />
                                 <h4>Email:</h4>
                                 hkennedyvi@gmail.com
@@ -124,7 +127,7 @@ function Bio() {
 
                         <div className="col education-container">
                             <h1>education</h1>
-                            <br /><br />
+                            <br />
                             <h6>UNVERSITY OF OREGON - CODING BOOTCAMP - 2020</h6>
                             <h6>PORTLAND STATE UNVERSITY - BA ADVERTISING MGMT - 2019</h6>
                             <br /><br />

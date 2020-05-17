@@ -8,6 +8,11 @@ body {
     outline: none;
   }
 
+  #prof-line {
+    font-weight: 900;
+    font-style: italic;
+  }
+
   #avatar {
     width: 150px;
     margin: 0 0 0 20px;
@@ -41,7 +46,7 @@ body {
 }
 
 .sm-icon {
-  color:black;
+  color: black;
 }
 
 .fa-file:hover {
