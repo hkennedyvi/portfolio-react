@@ -52,6 +52,7 @@ function FullPortfolio() {
                                     <img className="d-block w-100 carousel-image" src={CahootsImage} alt="First slide" />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5>CAHOOTS (Social App)</h5>
+                                        <p>Guest Account: cahootsguy@email.com</p>
                                         <p>Built with: MERN STACK, MATERIAL-UI, PASSPORT, BCRYPT, GOOGLE MAPS and GEOLOCATOR APIs.</p>
                                         <a href="https://u-incahoots.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                             <i className="fas fa-link"></i>
