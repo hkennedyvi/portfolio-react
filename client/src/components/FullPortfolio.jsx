@@ -52,7 +52,11 @@ function FullPortfolio() {
                                     <img className="d-block w-100 carousel-image" src={CahootsImage} alt="First slide" />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5>CAHOOTS (Social App)</h5>
-                                        <p>Guest Account: cahootsguy@email.com</p>
+                                        <p>Guest Account: cahootsguy@email.com
+                                            <br />
+                                            Password: password
+                                        </p>
+                                        <p>Application for organizing neighbor hangouts. Users can join an existing event or create one of their own.</p>
                                         <p>Built with: MERN STACK, MATERIAL-UI, PASSPORT, BCRYPT, GOOGLE MAPS and GEOLOCATOR APIs.</p>
                                         <a href="https://u-incahoots.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                             <i className="fas fa-link"></i>
@@ -67,7 +71,8 @@ function FullPortfolio() {
                                     <img className="d-block w-100 carousel-image" src={NBAImage} alt="Second slide" />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5>NBA FANBOI (Sports App)</h5>
-                                        <p>Built with: HTML, BOOTSTRAP, JAVASCRIPT, NODE.JS, EXPRESS, MSQL, HANDELBARS, PASSPORT, SPORTS RADAR API.</p>
+                                        <p>A league tracking application with up to the minute player, team, and playoff standing data and statistics.</p>
+                                        <p>Built with: HTML, BOOTSTRAP, JAVASCRIPT, NODE.JS, EXPRESS, MYSQL, HANDELBARS, PASSPORT, SPORTS RADAR API.</p>
                                         <a href="https://nbafanboi.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                             <i className="fas fa-link"></i>
                                         </a>
@@ -81,6 +86,7 @@ function FullPortfolio() {
                                     <img className="d-block w-100 carousel-image" src={BooksImage} alt="Third slide" />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5>ALREADY-BOOKED (Book App)</h5>
+                                        <p>A book library builder. Pulling results from Google Books, this application searches titles that can then be saved and managed in a personal bookshelf.</p>
                                         <p>Built with: MERN STACK, GOOGLE BOOKS API.</p>
                                         <a href="https://imalreadybooked.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                             <i className="fas fa-link"></i>
@@ -95,6 +101,7 @@ function FullPortfolio() {
                                     <img className="d-block w-100 carousel-image" src={WatchmenImage} alt="Fourth slide" />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5>THE WATCHMEN (Comic App)</h5>
+                                        <p>Simple application for getting to know the characters of Watchmen utilizing Bulma's styling framework to mimic a traditional comic layout.</p>
                                         <p>Built with: JQUERY, BULMA, EXPRESS, HANDLEBARS, SUPERHERO API.</p>
                                         <a href="https://the-watchmen.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                             <i className="fas fa-link"></i>
@@ -109,6 +116,7 @@ function FullPortfolio() {
                                     <img className="d-block w-100 carousel-image" src={ShowsImage} alt="Fifth slide" />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5>SHOW-ME-SHOWS (Music App)</h5>
+                                        <p>An entertainment application for finding upcoming local concerts and events.</p>
                                         <p>Built with: HTML, CSS, JAVASCRIPT, SONGKICK and TICKETMASTER API.</p>
                                         <a href="https://jeretc79.github.io/project1/" target="_blank" rel="noopener noreferrer">
                                             <i className="fas fa-link"></i>
@@ -123,6 +131,7 @@ function FullPortfolio() {
                                     <img className="d-block w-100 carousel-image" src={NoteImage} alt="Sixth slide" />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5>NOTE-TAKER (Notes App)</h5>
+                                        <p>A simple notetaker application. Using basic CRUD principles, unique notes can be saved, edited, and deleted.</p>
                                         <p>Built with: HTML, BOOTSTRAP, JQUERY, EXPRESS.</p>
                                         <a href="https://jot-me-down.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                             <i className="fas fa-link"></i>
@@ -137,6 +146,7 @@ function FullPortfolio() {
                                     <img className="d-block w-100 carousel-image" src={TeamImage} alt="Seventh slide" />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5>ONE-MEAN-TEAM (Employee Directory App)</h5>
+                                        <p>React based directory for managing employees. An administrator can search and sort through a collection of team members generated from Random User API.</p>
                                         <p>Built with: REACT, BOOTSTRAP, AXIOS, RANDOM-USER API.</p>
                                         <a href="https://onemeanteam.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                             <i className="fas fa-link"></i>
